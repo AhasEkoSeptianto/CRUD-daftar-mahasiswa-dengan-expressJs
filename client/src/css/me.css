@@ -1,0 +1,272 @@
+/* nav */
+.container-nav-me {
+    transition: 1s;
+}
+
+.container-nav-me a {
+    color: white;
+}
+
+.navbar-me-bg {
+    width: 120px;
+    height: 50px;
+    background-color: #64c2f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    float: right;
+    font-family: "Courgette", cursive;
+    margin-top: 10px;
+}
+/*end nav*/
+
+/*main*/
+
+/*about*/
+.container-main {
+    padding: 100px 0px 20px 0px;
+    background-color: #191970;
+}
+
+.about-me {
+    transition: 1s;
+    height: 400px;
+    padding: 20px;
+    margin-left: -10px;
+    opacity: 0;
+}
+
+.about-me h1 {
+    font-weight: bold;
+    text-align: center;
+}
+
+.about-me h1::before {
+    content: "About";
+    color: #ffffff;
+}
+
+.about-me h1::after {
+    content: " Me";
+    color: #4169e1;
+}
+
+.about-me p {
+    color: #d4d4d4;
+    font-family: "Georgia";
+    padding: 20px;
+    font-style: bold;
+}
+
+.image-me {
+    text-align: center;
+}
+
+.image-me img {
+    width: 250px;
+    border-radius: 50%;
+    background-color: #4169e1;
+}
+
+.image-me h5 {
+    color: #bcbcbc;
+    margin: 10px;
+    font-weight: bold;
+}
+/*end about*/
+
+/*pintas*/
+
+.pintas {
+    /*background-color: #ffffff;*/
+    width: 50%;
+    margin: auto;
+    border-radius: 20px 20px;
+    background-color: #dcdcdc;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pintas ul {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+}
+
+.pintas ul li {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.pintas ul li a {
+    text-decoration-line: none;
+    color: #4169e1;
+    font-weight: bold;
+}
+
+.pintas ul li a:hover {
+    color: gray;
+}
+
+/*end pintas*/
+
+/*educations*/
+
+.educations {
+    transition: 1s;
+    opacity: 0;
+    margin-right: -120px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.educations .row {
+    margin-top: 50px;
+}
+
+.educations h3 {
+    margin-left: 300px;
+    font-weight: bold;
+}
+
+.educations p {
+    color: gray;
+}
+
+.educations img {
+    height: 70px;
+    border-radius: 10px;
+}
+
+/*end educations*/
+
+/*skill*/
+
+.skill {
+    transition: 1s;
+    padding: 30px;
+    opacity: 0;
+}
+
+.skill h3 {
+    text-align: center;
+    font-weight: bold;
+}
+
+.skill h5 {
+    text-align: center;
+    margin-top: -60px;
+    color: gray;
+}
+
+.mySkill {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.mySkill img {
+    width: 130px;
+}
+
+.mySkill a {
+    margin: 100px;
+    cursor: pointer;
+}
+
+.myKnowledge {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.myKnowledge img {
+    width: 130px;
+}
+
+.myKnowledge a {
+    margin: 100px;
+    cursor: pointer;
+}
+
+/*end skill*/
+
+/*hoby*/
+
+.hoby-container {
+    padding: 50px;
+    background-color: #e2e2e2;
+    color: gray;
+}
+
+.hoby {
+    transition: 1s;
+    opacity: 0;
+}
+
+.hoby h3 {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.hoby .row {
+    margin: 50px;
+    text-align: center;
+}
+
+.hoby .row img {
+    border-radius: 10px;
+    height: 150px;
+    margin-top: 20px;
+}
+/*end hoby*/
+
+/*seminar*/
+
+.Seminar-container {
+    padding: 100px;
+    background-color: #e2e2e2;
+    color: gray;
+}
+
+.Seminar {
+    transition: 1s;
+    opacity: 0;
+}
+
+.Seminar h3 {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+}
+
+.Seminar .row {
+    margin: 50px;
+    text-align: center;
+}
+
+.Seminar .row img {
+    border-radius: 10px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+/*end seminar*/
+
+/*copyright*/
+
+.copyright {
+    text-align: center;
+    padding: 10px;
+    background-color: #ababab;
+    color: #434343;
+}
+
+/*end copyright*/
+
+/*end main*/
